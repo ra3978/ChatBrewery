@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GroupChatActivity">
+    tools:context="com.gmail.rohan1007aggarwal.chatapp_rohan.GroupChatActivity">
 
     <include
         android:id="@+id/group_chat_activity_toolbar"
@@ -16,13 +16,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/group_chat_activity_toolbar"
-        android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintStart_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent">
         
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
                 android:id="@+id/group_chat_display"
@@ -38,33 +37,32 @@
         </LinearLayout>
     </ScrollView>
 
-        <LinearLayout
-            android:id="@+id/myLinearLayout"
-            android:layout_width="match_parent"
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/input_group_message"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+            android:ems="10"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/please_write_a_message"
+            android:inputType="textMultiLine"
+            android:padding="17dp" />
 
-            <EditText
-                android:id="@+id/input_group_message"
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:autofillHints=""
-                android:hint="@string/please_write_a_message"
-                android:inputType="textMultiLine"
-                android:padding="17dp" />
+        <ImageButton
+            android:id="@+id/send_message_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/send_message" />
 
-            <ImageButton
-                android:id="@+id/send_message_button"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/todo"
-                android:src="@drawable/send_message" />
-
-        </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

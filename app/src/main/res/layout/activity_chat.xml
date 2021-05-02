@@ -5,53 +5,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/darker_gray"
-    tools:context=".ChatActivity">
+    tools:context="com.gmail.rohan1007aggarwal.chatapp_rohan.ChatActivity">
 
     <include
-        android:id="@+id/chat_activity_toolbar"
+        android:id="@+id/chat_toolbar"
         layout="@layout/app_bar_layout">
     </include>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/private_messages_list_of_users"
-
+        android:id="@+id/privates_massages_list_of_users"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/chat_linear_layout"
-        android:layout_below="@+id/chat_activity_toolbar"
-        android:layout_alignStart="@+id/chat_activity_toolbar"
-        android:layout_alignEnd="@+id/chat_activity_toolbar"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp">
-
+        android:layout_above="@+id/chatLinearLayout"
+        android:layout_below="@+id/chat_toolbar">
     </androidx.recyclerview.widget.RecyclerView>
 
     <LinearLayout
-        android:id="@+id/chat_linear_layout"
+        android:id="@+id/chatLinearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:background="@android:color/background_light"
         android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/send_files_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/send_files"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/white"
+            android:contentDescription="@string/todo"/>
 
         <EditText
             android:id="@+id/input_message"
-            android:layout_width="350dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:hint="@string/please_write_a_message"
-            android:background="#FFFFFF"
             android:inputType="textMultiLine"
-            android:padding="17dp" />
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Type message here..."
+            android:padding="15dp"
+            android:autofillHints="">
+        </EditText>
 
         <ImageButton
             android:id="@+id/send_message_button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF"
-            android:contentDescription="@string/todo"
-            android:src="@drawable/send_message" />
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/send_message"
+            android:layout_gravity="center"
+            android:saveEnabled="false"
+            android:backgroundTint="@android:color/white"
+            android:contentDescription="@string/todo"/>
     </LinearLayout>
+
 
 </RelativeLayout>

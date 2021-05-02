@@ -1,42 +1,71 @@
 {
   "project_info": {
-    "project_number": "41784904645",
-    "firebase_url": "https://chatapp-rohan.firebaseio.com",
-    "project_id": "chatapp-rohan",
-    "storage_bucket": "chatapp-rohan.appspot.com"
+    "project_number": "781596090801",
+    "firebase_url": "https://chatapp-rohan-da879-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-rohan-da879",
+    "storage_bucket": "chatapp-rohan-da879.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:41784904645:android:e8bb9cc359dc67f91f19ac",
+        "mobilesdk_app_id": "1:781596090801:android:1737b9be0cf89dc36c9d90",
         "android_client_info": {
           "package_name": "com.example.chatapp_rohan"
         }
       },
       "oauth_client": [
         {
-          "client_id": "41784904645-2t7o4j2h3mnnh475hv0d7fl75d45fakb.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.chatapp_rohan",
-            "certificate_hash": "a953b0ec6f922ca79324f7d248dc76486bdd3b5c"
-          }
-        },
-        {
-          "client_id": "41784904645-4ti5pnfkglmskpqtja7mseqc3njrpg9f.apps.googleusercontent.com",
+          "client_id": "781596090801-48qee479on14dveenc2q40ei33jbb4kk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyATauGo5QeN-zwPUrsgDAWpl3k8lrP3uHg"
+          "current_key": "AIzaSyCs7sBFRoH_oCvSJLaTwZ5jtt14O77FrUQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "41784904645-4ti5pnfkglmskpqtja7mseqc3njrpg9f.apps.googleusercontent.com",
+              "client_id": "781596090801-48qee479on14dveenc2q40ei33jbb4kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781596090801:android:64b91940b6b60e016c9d90",
+        "android_client_info": {
+          "package_name": "com.gmail.rohan1007aggarwal.chatapp_rohan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781596090801-2bkf1m072ge9m2dsljmnfpq1v8s9nehh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmail.rohan1007aggarwal.chatapp_rohan",
+            "certificate_hash": "a953b0ec6f922ca79324f7d248dc76486bdd3b5c"
+          }
+        },
+        {
+          "client_id": "781596090801-48qee479on14dveenc2q40ei33jbb4kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs7sBFRoH_oCvSJLaTwZ5jtt14O77FrUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781596090801-48qee479on14dveenc2q40ei33jbb4kk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

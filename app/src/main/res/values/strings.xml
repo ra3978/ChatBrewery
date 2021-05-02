@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChatApp-Rohan</string>
+    <string name="app_name">Chat\nBrewery</string>
     <string name="chats">Chats</string>
     <string name="groups">Groups</string>
     <string name="contacts">Contacts</string>
@@ -35,4 +35,5 @@
     <string name="user_status">User Status</string>
     <string name="hey_i_am_using_chat_app">hey! I am using Chat App.</string>
     <string name="send_message">Send Message</string>
+    <string name="cancel_chat_request">Cancel Chat Request</string>
 </resources>
