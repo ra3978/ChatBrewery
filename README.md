@@ -2,7 +2,7 @@
 
 This chat app helps you to connect with new people around the country to know what current society thinks about the country by sharing opinions by making chats.
 
-# Features packed with ChatBrewery are as follows:
+## Features packed with ChatBrewery are as follows:
 
 - Chats: Get to know your friends by chatting or sharing image/pdf/MS Docx files on a private one-to-one window.
 - Groups: Can make groups and add the people to make chats on a one-to-many window.
