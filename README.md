@@ -12,3 +12,8 @@ This chat app helps you to connect with new people around the country to know wh
 - Settings: People can add their profile image and can change their status if they wish to make their profile appealing to other global users.
 
 ChatBrewery is designed for the users that are not socially involved much and can get the updates regarding who are the people the person is living with.
+
+https://user-images.githubusercontent.com/45250231/119650620-a6788500-be41-11eb-80a9-231d180a154d.mp4
+
+
+![ChatBrewery_Banner](https://user-images.githubusercontent.com/45250231/119649194-fe15f100-be3f-11eb-8282-2fda1a2e86a2.jpeg)
